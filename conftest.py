@@ -1,6 +1,10 @@
+import os
 import pytest
 from py.xml import html
-from datetime import datetime
+
+# append env
+os.environ['PATH'] += ""
+
 
 @pytest.fixture()
 def hello():

@@ -1,3 +1,12 @@
+# env
+
+```
+'''contest.py'''
+
+# example
+os.environ['PATH'] += r"[geckodriver path]"
+```
+
 # run test
 
 ```
